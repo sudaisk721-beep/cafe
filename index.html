@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,225 +5,271 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cafe de Chao | Premium Coffee Experience</title>
+    <meta name="description" content="Cafe de Chao — carefully brewed coffee, fresh bakes and warm moments.">
 
-    <!-- CONNECTED CSS FILE -->
-    <link rel="stylesheet" href="style.css">
+    <title>Cafe de Chao | Home</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <header class="header">
-        <div class="container nav-container">
+    <!-- NAVIGATION -->
+    <header class="site-header">
 
-            <a href="index.html" class="logo">
-                CAFE <span>DE CHAO</span>
-            </a>
+        <a class="brand" href="index.html">
+            <img src="images/cafe-banner.png" alt="Cafe de Chao logo">
+        </a>
 
-            <nav class="navbar">
-                <a href="index.html">Home</a>
-                <a href="menu.html">Menu</a>
-                <a href="about.html">About</a>
-            </nav>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
 
-            <button class="cart-open" aria-label="Open shopping cart">
-                🛒 <span class="cart-count">0</span>
+        <nav class="nav">
+
+            <a class="active" href="index.html">Home</a>
+
+            <a href="menu.html">Our Menu</a>
+
+            <a href="about.html">Our Story</a>
+
+            <button class="cart-open" type="button">
+                Bag <span class="cart-count">0</span>
             </button>
 
-        </div>
+        </nav>
+
     </header>
 
 
-    <!-- HERO SECTION -->
-    <section class="hero">
+    <!-- MAIN CONTENT -->
+    <main>
 
-        <div class="hero-content">
-            <p class="hero-subtitle">WELCOME TO CAFE DE CHAO</p>
+        <!-- HERO SECTION -->
 
-            <h1>Where Every Cup<br> Tells a Story</h1>
+        <section class="hero">
 
-            <p>
-                Experience the perfect blend of premium coffee,
-                delicious food and unforgettable moments.
-            </p>
+            <img
+                class="hero-photo"
+                src="images/cafe-exterior.png"
+                alt="Cafe de Chao exterior"
+            >
 
-            <a href="menu.html" class="btn">Explore Our Menu</a>
-        </div>
+            <div class="hero-shade"></div>
 
-    </section>
+            <div class="hero-content">
 
+                <p class="eyebrow">
+                    A LITTLE PAUSE. A LOT OF FLAVOUR.
+                </p>
 
-    <!-- INTRODUCTION -->
-    <section class="intro-section container">
+                <h1>
+                    Good coffee.<br>
+                    <em>Golden moments.</em>
+                </h1>
 
-        <div class="intro-image">
-            <img src="images/cozy-cafe-de-chao-at-dusk.png"
-                 alt="Cafe de Chao atmosphere">
-        </div>
+                <p>
+                    Slow down, settle in, and make yourself at home.
+                    Your favourite cup is waiting.
+                </p>
 
-        <div class="intro-content">
-            <p class="section-subtitle">OUR STORY</p>
+                <div class="hero-actions">
 
-            <h2>More Than Just A Cafe</h2>
+                    <a class="btn btn-gold" href="menu.html">
+                        Explore the menu
+                    </a>
 
-            <p>
-                At Cafe de Chao, we believe coffee is more than
-                a drink. It is an experience that brings people
-                together.
-            </p>
+                    <a class="text-link" href="about.html">
+                        Discover our story ↗
+                    </a>
 
-            <p>
-                From freshly brewed coffee to delicious desserts,
-                every detail is designed to make your visit special.
-            </p>
-
-            <a href="about.html" class="btn">Discover Our Story</a>
-        </div>
-
-    </section>
-
-
-    <!-- FEATURES -->
-    <section class="features-section">
-
-        <div class="container">
-
-            <div class="section-heading">
-                <p class="section-subtitle">WHY CHOOSE US?</p>
-                <h2>The Cafe de Chao Experience</h2>
-            </div>
-
-            <div class="features-grid">
-
-                <div class="feature-card">
-                    <h3>Premium Coffee</h3>
-                    <p>Freshly prepared coffee using carefully selected beans.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>Fresh Food</h3>
-                    <p>Delicious food prepared with quality ingredients.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>Cozy Environment</h3>
-                    <p>A welcoming atmosphere for friends, family and work.</p>
                 </div>
 
             </div>
 
-        </div>
+            <span class="hero-note">
+                FRESHLY BREWED · MADE WITH CARE
+            </span>
 
-    </section>
+        </section>
 
 
-    <!-- EXPERIENCE SECTION -->
-    <section class="experience-section">
+        <!-- INTRODUCTION -->
 
-        <div class="experience-content container">
+        <section class="intro section-wrap">
 
-            <p class="section-subtitle">A PLACE TO RELAX</p>
+            <div>
 
-            <h2>Make Every Moment Special</h2>
+                <p class="eyebrow">
+                    WELCOME TO CAFE DE CHAO
+                </p>
 
-            <p>
-                Whether you are meeting friends, enjoying your
-                favourite coffee or simply taking a break,
-                Cafe de Chao is the perfect place.
+                <h2>
+                    Not just a coffee.<br>
+                    <em>A feeling.</em>
+                </h2>
+
+            </div>
+
+            <p class="intro-copy">
+                From the first rich aroma to the last delicious bite,
+                every detail is made for the moments worth slowing down for.
+
+                Bring a friend, bring a book, or simply bring yourself.
             </p>
 
-            <a href="menu.html" class="btn">Order Your Favourite</a>
-
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- CALL TO ACTION -->
-    <section class="cta-section">
+        <!-- FEATURES -->
 
-        <h2>Ready for Your Next Coffee Experience?</h2>
+        <section class="feature-grid section-wrap">
 
-        <p>Explore our menu and discover your new favourite.</p>
+            <article class="feature-card">
 
-        <a href="menu.html" class="btn">View Menu</a>
+                <span>01 / THE BREW</span>
 
-    </section>
+                <h3>Made to be savoured</h3>
+
+                <p>
+                    Comforting classics and bold coffee favourites,
+                    prepared fresh for your day.
+                </p>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <span>02 / THE TABLE</span>
+
+                <h3>A seat for everyone</h3>
+
+                <p>
+                    A relaxed corner for conversations,
+                    quiet work, and little celebrations.
+                </p>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <span>03 / THE BITE</span>
+
+                <h3>Something delicious</h3>
+
+                <p>
+                    Sweet treats and café favourites
+                    to make your coffee break complete.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- CALL TO ACTION -->
+
+        <section class="home-cta">
+
+            <p class="eyebrow">
+                YOUR TABLE IS WAITING
+            </p>
+
+            <h2>
+                Make today a <em>café day.</em>
+            </h2>
+
+            <a class="btn btn-outline" href="menu.html">
+                See what's brewing
+            </a>
+
+        </section>
+
+    </main>
 
 
     <!-- FOOTER -->
+
     <footer class="footer">
 
-        <div class="container footer-content">
+        <a class="footer-brand" href="index.html">
 
-            <div>
-                <h2>CAFE DE CHAO</h2>
-                <p>Creating memorable coffee experiences.</p>
-            </div>
+            Cafe de Chao
 
-            <div>
-                <h3>Quick Links</h3>
-                <a href="index.html">Home</a>
-                <a href="menu.html">Menu</a>
-                <a href="about.html">About</a>
-            </div>
+            <span>
+                COFFEE · COMFORT · CONNECTION
+            </span>
 
-            <div>
-                <h3>Contact</h3>
-                <p>Email: info@cafedechao.com</p>
-            </div>
+        </a>
+
+        <p>
+            Made for good coffee and even better company.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="menu.html">Menu</a>
+
+            <a href="about.html">About</a>
+
+            <a href="mailto:hello@cafedechao.example">Email us</a>
 
         </div>
 
-        <p class="copyright">
-            &copy; <span id="current-year"></span> Cafe de Chao.
-            All Rights Reserved.
-        </p>
+        <small>
+            © <span id="year"></span> Cafe de Chao. All rights reserved.
+        </small>
 
     </footer>
 
 
     <!-- SHOPPING CART -->
+
     <div class="cart-backdrop"></div>
 
-    <div class="cart-panel">
+    <aside class="cart-panel" aria-label="Shopping bag" aria-hidden="true">
 
-        <div class="cart-header">
-            <h2>Your Shopping Cart</h2>
+        <div class="cart-head">
 
-            <button class="cart-close" aria-label="Close shopping cart">
-                &times;
-            </button>
-        </div>
+            <h2>Your bag</h2>
 
-        <div class="cart-items">
-            <!-- Cart products are added using JavaScript -->
-        </div>
-
-        <div class="cart-footer">
-
-            <h3>
-                Total:
-                <span id="cart-total">Rs. 0</span>
-            </h3>
-
-            <button class="checkout-btn">
-                Proceed to Checkout
+            <button class="cart-close" aria-label="Close bag">
+                ×
             </button>
 
         </div>
 
-    </div>
+        <div class="cart-items"></div>
+
+        <div class="cart-total">
+
+            <span>Total</span>
+
+            <strong>
+                Rs <span id="cart-total">0</span>
+            </strong>
+
+        </div>
+
+        <button class="btn btn-gold checkout-btn">
+            Place order
+        </button>
+
+        <p class="cart-hint">
+            Demo checkout — your order is saved in this browser only.
+        </p>
+
+    </aside>
 
 
-    <!-- CONNECTED JAVASCRIPT FILE -->
     <script src="script.js"></script>
 
 </body>
 </html>
-```
