@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Menu | Cafe de Chao</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header class="site-header">
+
+        <a class="brand" href="index.html">
+            <img src="images/cafe-banner.png" alt="Cafe de Chao">
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav">
+
+            <a href="index.html">Home</a>
+
+            <a class="active" href="menu.html">Our Menu</a>
+
+            <a href="about.html">Our Story</a>
+
+            <button class="cart-open" type="button">
+                Bag <span class="cart-count">0</span>
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MENU HERO -->
+
+    <section class="menu-hero">
+
+        <p class="eyebrow">FRESHLY PREPARED · BEAUTIFULLY SERVED</p>
+
+        <h1>
+            Explore our <em>menu.</em>
+        </h1>
+
+        <p>
+            From your morning coffee to your evening treat,
+            discover something worth coming back for.
+        </p>
+
+    </section>
+
+
+    <!-- MENU SECTION -->
+
+    <main class="menu-container">
+
+        <div class="menu-heading">
+
+            <div>
+                <p class="eyebrow">MADE WITH CARE</p>
+                <h2>Our favourites</h2>
+            </div>
+
+            <p>Good food. Great coffee. Better moments.</p>
+
+        </div>
+
+
+        <!-- FILTER BUTTONS -->
+
+        <div class="filter-buttons">
+
+            <button class="filter-btn active" data-category="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-category="coffee">
+                Coffee
+            </button>
+
+            <button class="filter-btn" data-category="food">
+                Food
+            </button>
+
+            <button class="filter-btn" data-category="dessert">
+                Desserts
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCTS -->
+
+        <div class="product-grid">
+
+            <!-- COFFEE 1 -->
+
+            <article class="product-card" data-category="coffee">
+
+                <div class="product-image coffee-one">
+                    <span class="product-tag">BESTSELLER</span>
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-category">COFFEE</p>
+
+                    <h3>Classic Cappuccino</h3>
+
+                    <p>
+                        Rich espresso topped with smooth,
+                        creamy milk foam.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>Rs 350</strong>
+
+                        <button class="add-to-cart"
+                            data-id="cappuccino"
+                            data-name="Classic Cappuccino"
+                            data-price="350">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- COFFEE 2 -->
+
+            <article class="product-card" data-category="coffee">
+
+                <div class="product-image coffee-two"></div>
+
+                <div class="product-info">
+
+                    <p class="product-category">COFFEE</p>
+
+                    <h3>Caramel Latte</h3>
+
+                    <p>
+                        Smooth espresso blended with milk
+                        and delicious caramel.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>Rs 420</strong>
+
+                        <button class="add-to-cart"
+                            data-id="latte"
+                            data-name="Caramel Latte"
+                            data-price="420">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- COFFEE 3 -->
+
+            <article class="product-card" data-category="coffee">
+
+                <div class="product-image coffee-three"></div>
+
+                <div class="product-info">
+
+                    <p class="product-category">COFFEE</p>
+
+                    <h3>Americano</h3>
+
+                    <p>
+                        Bold espresso with hot water
+                        for a classic coffee experience.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>Rs 280</strong>
+
+                        <button class="add-to-cart"
+                            data-id="americano"
+                            data-name="Americano"
+                            data-price="280">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- FOOD 1 -->
+
+            <article class="product-card" data-category="food">
+
+                <div class="product-image food-one"></div>
+
+                <div class="product-info">
+
+                    <p class="product-category">FOOD</p>
+
+                    <h3>Club Sandwich</h3>
+
+                    <p>
+                        Fresh bread layered with vegetables,
+                        cheese and delicious fillings.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>Rs 550</strong>
+
+                        <button class="add-to-cart"
+                            data-id="sandwich"
+                            data-name="Club Sandwich"
+                            data-price="550">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- FOOD 2 -->
+
+            <article class="product-card" data-category="food">
+
+                <div class="product-image food-two"></div>
+
+                <div class="product-info">
+
+                    <p class="product-category">FOOD</p>
+
+                    <h3>Cheese Burger</h3>
+
+                    <p>
+                        A juicy burger with melted cheese
+                        and fresh ingredients.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>Rs 650</strong>
+
+                        <button class="add-to-cart"
+                            data-id="burger"
+                            data-name="Cheese Burger"
+                            data-price="650">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- FOOD 3 -->
+
+            <article class="product-card" data-category="food">
+
+                <div class="product-image food-three"></div>
+
+                <div class="product-info">
+
+                    <p class="product-category">FOOD</p>
+
+                    <h3>Chicken Pasta</h3>
+
+                    <p>
+                        Creamy pasta prepared with chicken
+                        and a delicious sauce.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>Rs 750</strong>
+
+                        <button class="add-to-cart"
+                            data-id="pasta"
+                            data-name="Chicken Pasta"
+                            data-price="750">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- DESSERT 1 -->
+
+            <article class="product-card" data-category="dessert">
+
+                <div class="product-image dessert-one">
+                    <span class="product-tag">POPULAR</span>
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-category">DESSERT</p>
+
+                    <h3>Chocolate Cake</h3>
+
+                    <p>
+                        Rich chocolate cake with
+                        a soft and delicious texture.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>Rs 400</strong>
+
+                        <button class="add-to-cart"
+                            data-id="cake"
+                            data-name="Chocolate Cake"
+                            data-price="400">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- DESSERT 2 -->
+
+            <article class="product-card" data-category="dessert">
+
+                <div class="product-image dessert-two"></div>
+
+                <div class="product-info">
+
+                    <p class="product-category">DESSERT</p>
+
+                    <h3>Classic Pancakes</h3>
+
+                    <p>
+                        Fluffy golden pancakes served
+                        with sweet syrup.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>Rs 450</strong>
+
+                        <button class="add-to-cart"
+                            data-id="pancakes"
+                            data-name="Classic Pancakes"
+                            data-price="450">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- DESSERT 3 -->
+
+            <article class="product-card" data-category="dessert">
+
+                <div class="product-image dessert-three"></div>
+
+                <div class="product-info">
+
+                    <p class="product-category">DESSERT</p>
+
+                    <h3>Brownie Delight</h3>
+
+                    <p>
+                        A rich chocolate brownie
+                        for your sweet cravings.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>Rs 380</strong>
+
+                        <button class="add-to-cart"
+                            data-id="brownie"
+                            data-name="Brownie Delight"
+                            data-price="380">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </main>
+
+
+    <!-- BOTTOM CTA -->
+
+    <section class="home-cta">
+
+        <p class="eyebrow">GOOD TASTE NEVER GOES OUT OF STYLE</p>
+
+        <h2>Find your <em>favourite.</em></h2>
+
+        <a href="about.html" class="btn btn-outline">
+            Discover our story
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <a class="footer-brand" href="index.html">
+
+            Cafe de Chao
+
+            <span>COFFEE · COMFORT · CONNECTION</span>
+
+        </a>
+
+        <p>Made for good coffee and even better company.</p>
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+
+            <a href="menu.html">Menu</a>
+
+            <a href="about.html">About</a>
+
+        </div>
+
+        <small>
+            © <span id="year"></span> Cafe de Chao. All rights reserved.
+        </small>
+
+    </footer>
+
+
+    <!-- SHOPPING CART -->
+
+    <div class="cart-backdrop"></div>
+
+    <aside class="cart-panel" aria-label="Shopping bag" aria-hidden="true">
+
+        <div class="cart-head">
+
+            <h2>Your bag</h2>
+
+            <button class="cart-close" aria-label="Close bag">
+                ×
+            </button>
+
+        </div>
+
+        <div class="cart-items"></div>
+
+        <div class="cart-total">
+
+            <span>Total</span>
+
+            <strong>
+                Rs <span id="cart-total">0</span>
+            </strong>
+
+        </div>
+
+        <button class="btn btn-gold checkout-btn">
+            Place order
+        </button>
+
+        <p class="cart-hint">
+            Demo checkout — your order is saved in this browser only.
+        </p>
+
+    </aside>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
